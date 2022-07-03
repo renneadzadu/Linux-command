@@ -1,4 +1,4 @@
-# Linux-command
+# Linux-command (use git bash)
 
 # file system
 
