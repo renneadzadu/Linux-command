@@ -41,3 +41,30 @@ Help echo = This will give you a description and the options you can use when yo
 Whatis = used to see a describtion of a command
  exit = tab out
  logout = signs you out
+
+
+
+
+  # git
+  hash function =every git object has its own unique hash.
+  Repository = where files are 
+  working directory = current working folders
+  staging area = added files ready to commit
+  git repository = files in the github
+  git add = staging
+  git add . = adds all working repository
+  git commit = commits changes (when file is commited, git saves author name and email and assignes unique hash)
+  ? how to set author name and email for git = git config -- global user.name <Name> , git config -- global user.email <email>
+ git config --list = to check if you already config email and name to git
+ git global --edit = use to edit your global config. I= to insert , esc :wq to quit out.
+ git log = check history of all commits
+ git checkout = checkout commit or branch
+ 
+ 
+   # branching and merging
+ git branch renne = created a beranch called renne 
+ git checkout renne = in a branch called renne 
+ git  log = will show HEAD - main, renne branch
+ git log -- graph = shows tree of parent branch and child branch
+
+  
